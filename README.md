@@ -15,7 +15,7 @@ Zoltán Csabai - 0000-0003-1700-2574
 Dénes Schmera - 0000-0003-1248-8413
 Gábor Várbíró - 0000-0001-5907-3472
 
-##Abstract
+## Abstract
 1. Background and aims Flow intermittency is a pervasive feature of river networks, yet its ecological consequences are often assessed with conventional β-diversity. Such approaches, however, overlook directional changes of communities across flow cessation and rewetting phases. We examined whether temporal community changes of macroinvertebrates differ between perennial and intermittent reaches of a river network.
 2. Methods We analysed presence–absence community data from 62 sites (34 perennial, 28 intermittent) in a river network in southwestern Hungary, sampled during 12 seasonal campaigns from 2020 to 2023. Community changes were partitioned into directional components of gain, loss, and overlap, and further community-level phenomena such as turnover and nestedness.
 3. Results Perennial sites have high temporal stability, characterised by high overlap and balanced turnover and nestedness components. Intermittent sites exhibited temporal instability, with gain- and loss-dominated phases alternating across flow intermittency cycles. Nestedness components were consistently lower in intermittent sites, indicating that repeated flow cessation not only removed taxa but also eroded the hierarchical organisation in which species-poor communities remain embedded within richer ones. In intermittent sites, directional metrics revealed strong temporal alteration of gain and loss components, whereas perennial sites showed only minor and balanced fluctuations.
