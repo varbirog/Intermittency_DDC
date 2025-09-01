@@ -27,3 +27,10 @@ Zoltán Csabai<sup>2,3</sup>, Dénes Schmera<sup>3</sup>, Gábor Várbíró<sup>
 4. Conclusions Flow intermittency caused pronounced instability and reduced recovery potential in intermittent reaches, whereas perennial sites maintained relatively stable assemblages over time. These contrasting dynamics highlight that the persistence of surface water underpins community stability, while its complete disappearance leads to unpredictable and imbalanced community trajectories. Directional β-diversity metrics revealed these ecological differences by making visible the directional signals of species gain and loss that conventional measures tend to overlook.
 5. Contribution to the field Our findings demonstrate that community composition can serve as a retrospective indicator of flow intermittency, even where hydrological records are lacking. By highlighting distinctive directional signals of species loss and gain, this study provides a practical tool for biodiversity monitoring and management. These results are relevant and applicable to international efforts to anticipate ecological consequences of increasing flow intermittency under climate change and to implement adaptive conservation strategies that support biodiversity in dynamic freshwater ecosystems.
 
+## Repository Contents
+
+**README.md** – Project documentation and metadata.  
+- **R_otka_elemzes_git.R** – Main R script for data analysis workflow.  
+- **Suppl_function.R** – Supplementary R functions used in the analysis.  
+- **otka_final.xlsx** – Final dataset (Excel file) containing processed data used for analyses.  
+
