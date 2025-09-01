@@ -1,19 +1,24 @@
-#  Flow intermittency amplifies temporal instability in stream macroinvertebrate communities
-Pál Boda1, Júlia Szeles1, Tamás Bozóki1, Zoltán Csabai2,3, Dénes Schmera3, Gábor Várbíró1
+#  Flow intermittency amplifies temporal instability in macroinvertebrate communities: insights from directional β-diversity
 
-1HUN-REN Centre for Ecological Research, Institute of Aquatic Ecology, Debrecen, Hungary
-2Department of Hydrobiology, University of Pécs, Pécs, Hungary
-3HUN-REN Balaton Limnological Research Institute, Tihany, Hungary
+**Authors:**  
+Pál Boda<sup>1</sup>, Júlia Szeles<sup>1</sup>, Tamás Bozóki<sup>1</sup>,  
+Zoltán Csabai<sup>2,3</sup>, Dénes Schmera<sup>3</sup>, Gábor Várbíró<sup>1</sup>  
 
-*Corresponding author: varbirog@gmail.com
+**Affiliations:**  
+<sup>1</sup> HUN-REN Centre for Ecological Research, Institute of Aquatic Ecology, Debrecen, Hungary  
+<sup>2</sup> Department of Hydrobiology, University of Pécs, Pécs, Hungary  
+<sup>3</sup> HUN-REN Balaton Limnological Research Institute, Tihany, Hungary  
 
-ORCID
-Pál Boda - 0000-0002-1825-5744
-Júlia Szeles - 0009-0004-9571-6200
-Tamás Bozóki - 0009-0003-7510-3936
-Zoltán Csabai - 0000-0003-1700-2574
-Dénes Schmera - 0000-0003-1248-8413
-Gábor Várbíró - 0000-0001-5907-3472
+*Corresponding author: [varbirog@gmail.com](mailto:varbirog@gmail.com)
+
+## ORCID
+[![ORCID: Pál Boda](https://img.shields.io/badge/ORCID-Pál%20Boda-00A98F?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-1825-5744)
+[![ORCID: Júlia Szeles](https://img.shields.io/badge/ORCID-Júlia%20Szeles-00A98F?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-9571-6200)
+[![ORCID: Tamás Bozóki](https://img.shields.io/badge/ORCID-Tamás%20Bozóki-00A98F?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-7510-3936)
+[![ORCID: Zoltán Csabai](https://img.shields.io/badge/ORCID-Zoltán%20Csabai-00A98F?logo=orcid&logoColor=white)](https://orcid.org/0000-0003-1700-2574)
+[![ORCID: Dénes Schmera](https://img.shields.io/badge/ORCID-Dénes%20Schmera-00A98F?logo=orcid&logoColor=white)](https://orcid.org/0000-0003-1248-8413)
+[![ORCID: Gábor Várbíró](https://img.shields.io/badge/ORCID-Gábor%20Várbíró-00A98F?logo=orcid&logoColor=white)](https://orcid.org/0000-0001-5907-3472)  
+
 
 ## Abstract
 1. Background and aims Flow intermittency is a pervasive feature of river networks, yet its ecological consequences are often assessed with conventional β-diversity. Such approaches, however, overlook directional changes of communities across flow cessation and rewetting phases. We examined whether temporal community changes of macroinvertebrates differ between perennial and intermittent reaches of a river network.
