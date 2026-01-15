@@ -166,7 +166,18 @@ if (is.null(relativize)) {
 			}
 		} 
 }
-#			
+#
+#
+# --- Nestedness undefined when gain is NA (empty–empty comparisons) ---
+empty <- rowSums(mat.b) == 0
+empty_pairs <- outer(empty, empty, "&")
+
+if (method %in% 7:9) {
+  out2[empty_pairs] <- NA
+  if (!is.null(relativize)) den[empty_pairs] <- NA
+  if (method > 6 & method < 10) tn[empty_pairs] <- NA
+}
+				
 cat("Method: ",inm,"\n")
 #
 if(!is.null(relativize)) {
@@ -179,4 +190,5 @@ if(!is.null(relativize)) {
 #
 list(mat.out=out2, total.t=tt, total.n=tn, total.strict.n=tn2, den=den)
 }
+
 
