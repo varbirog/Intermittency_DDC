@@ -146,7 +146,7 @@ unnested_kodes= minta_calc4 %>%
   select(c(site,kodex))  %>% 
   unnest(kodex) 
   
-write.table(dat, file="clipboard-16384",sep="\t",row.names=T,col.names=T)  
+# Bind cols
 
 dat_s= bind_cols(unnested_minta_S,unnested_kodes[,-1])  
 
@@ -155,7 +155,7 @@ dat_j= bind_cols(unnested_minta_J,unnested_kodes[,-1])
 
 
 
-# create a matrix for the heatmap
+# create a matrix for the heatmap not used in the article
 heatmap_data <- data.frame(
   id = dat_s$site,
   kodex = dat_s$kodex,
@@ -177,7 +177,7 @@ my_comparisons <- list( c("p", "i"))
 
 
 
-#join sites --------------
+#join with sites --------------
 
 jacc=dat_j %>% inner_join(sites,by="site")
 
@@ -186,9 +186,9 @@ sorr=dat_s %>% inner_join(sites,by="site")
 
 
 
+# Make a longer datastructure
 
-
-
+# longer Jaccard
 df_long_jacc <- jacc %>% 
   pivot_longer(cols = c(overlap,gain,loss,
                         gaining.turnover,
@@ -202,7 +202,7 @@ df_long_jacc <- jacc %>%
   values_to = "value")
 
 
-
+# longer Sorrensen
 
 df_long_sorr <- sorr %>%
   pivot_longer(cols = c(overlap,gain,loss,
@@ -269,7 +269,7 @@ df_long_sorr %>% filter(p_i=="i", metric %in% c("gaining.nestedness", "neutral.n
   scale_x_discrete(breaks = unique(df_long_sorr$kodex)) +
   theme_minimal()
 
-# Csoportátlag számítása camp, metric, p_i szerint
+# Group by summaries camp, metric, p_i 
 
 df_summary <- df_long_jacc %>%
   group_by(kodex, metric, p_i) %>%
@@ -287,7 +287,7 @@ ggplot() +
   labs(x = "kodex", y = "Value", title = "Overlap, Gain, Loss with Group Averages by p_i") +
   theme_minimal()
 
-# Csoportátlag -Jaccard---------------
+# Seasonal summaries-Jaccard---------------
 
 
 df_summary <- df_long_jacc %>%
@@ -513,6 +513,7 @@ df_long_jacc %>% dplyr::filter(metric %in% c("gaining.nestedness" ,"neutral.nest
   stat_compare_means(label.y = 1.3)+
   facet_wrap(~metric)+
   ggtitle("Jaccard nestedness Components")
+
 
 
 
