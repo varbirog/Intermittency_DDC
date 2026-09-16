@@ -21,11 +21,24 @@ Zoltán Csabai<sup>2,3</sup>, Dénes Schmera<sup>3</sup>, Gábor Várbíró<sup>
 
 
 ## Abstract
-1. Background and aims Flow intermittency is a pervasive feature of river networks, yet its ecological consequences are often assessed with conventional β-diversity. Such approaches, however, overlook directional changes of communities across flow cessation and rewetting phases. We examined whether temporal community changes of macroinvertebrates differ between perennial and intermittent reaches of a river network.
-2. Methods We analysed presence–absence community data from 62 sites (34 perennial, 28 intermittent) in a river network in southwestern Hungary, sampled during 12 seasonal campaigns from 2020 to 2023. Community changes were partitioned into directional components of gain, loss, and overlap, and further community-level phenomena such as turnover and nestedness.
-3. Results Perennial sites have high temporal stability, characterised by high overlap and balanced turnover and nestedness components. Intermittent sites exhibited temporal instability, with gain- and loss-dominated phases alternating across flow intermittency cycles. Nestedness components were consistently lower in intermittent sites, indicating that repeated flow cessation not only removed taxa but also eroded the hierarchical organisation in which species-poor communities remain embedded within richer ones. In intermittent sites, directional metrics revealed strong temporal alteration of gain and loss components, whereas perennial sites showed only minor and balanced fluctuations.
-4. Conclusions Flow intermittency caused pronounced instability and reduced recovery potential in intermittent reaches, whereas perennial sites maintained relatively stable assemblages over time. These contrasting dynamics highlight that the persistence of surface water underpins community stability, while its complete disappearance leads to unpredictable and imbalanced community trajectories. Directional β-diversity metrics revealed these ecological differences by making visible the directional signals of species gain and loss that conventional measures tend to overlook.
-5. Contribution to the field Our findings demonstrate that community composition can serve as a retrospective indicator of flow intermittency, even where hydrological records are lacking. By highlighting distinctive directional signals of species loss and gain, this study provides a practical tool for biodiversity monitoring and management. These results are relevant and applicable to international efforts to anticipate ecological consequences of increasing flow intermittency under climate change and to implement adaptive conservation strategies that support biodiversity in dynamic freshwater ecosystems.
+Flow intermittency increases temporal variation in riverine communities, but conventional β-diversity approaches often overlook the direction of community change across drying and wetting phases, which is central to intermittency-driven dynamics. Here, we applied a directional β-diversity framework to quantify species gain and loss through time and to examine intermittency-driven community change. We compared temporal changes in macroinvertebrate assemblage composition between perennial and intermittent sites within a river network.
+We analysed presence–absence macroinvertebrate data from 62 sites (15 perennial, 47 intermittent), sampled during 12 seasonal campaigns between 2020 and 2023 in southwestern Hungary, where most sites were historically perennial but have recently become intermittent. Temporal changes in assemblage composition were partitioned into directional β-diversity components (gain, loss, overlap).
+Assemblages at perennial sites showed high temporal stability, characterised by high overlap and balanced gain and loss components. In contrast, assemblages at intermittent sites had greater temporal variability, with gain- and loss-dominated phases alternating across successive dry and wetted periods. Nestedness components were consistently lower in intermittent sites.
+Flow intermittency was associated with greater temporal fluctuation and stronger directional imbalance in compositional dynamics. By resolving gain–loss asymmetry, directional β-diversity revealed temporal dynamics at intermittent sites that remained undetected by conventional non-directional approaches.
+Drying–wetting cycles imposed strongly directional changes in community composition, leaving detectable signatures in temporal β-diversity patterns. These patterns provide a community-based signal of intermittency and indicate that directional β-diversity can help detect hydrological intermittency from biological assemblage data, with potential applications in bioassessment and monitoring frameworks.
+
+Highlights
+
+●	Flow intermittency reshapes temporal patterns in river communities
+
+●	Directional β-diversity captures gains and losses through time
+
+●	Intermittent sites show stronger and more variable community change
+
+●	Drying disrupts nested structure and increases temporal instability
+
+●	Method helps detect intermittency from biological data
+
 
 ## Repository Contents
 
