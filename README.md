@@ -19,6 +19,15 @@ Zoltán Csabai<sup>2,3</sup>, Dénes Schmera<sup>3</sup>, Gábor Várbíró<sup>
 [![ORCID: Dénes Schmera](https://img.shields.io/badge/ORCID-Dénes%20Schmera-00A98F?logo=orcid&logoColor=white)](https://orcid.org/0000-0003-1248-8413)
 [![ORCID: Gábor Várbíró](https://img.shields.io/badge/ORCID-Gábor%20Várbíró-00A98F?logo=orcid&logoColor=white)](https://orcid.org/0000-0001-5907-3472)  
 
+## Citation
+
+If you use this dataset or code, please cite:
+
+Boda, P., Szeles, J., Bozóki, T., Csabai, Z., Schmera, D., & Várbíró, G. (2026).
+Flow intermittency amplifies temporal instability in macroinvertebrate communities:
+insights from directional β-diversity.
+*Ecological Indicators*.
+https://doi.org/10.1016/j.ecolind.2026.115523
 
 ## Abstract
 Flow intermittency increases temporal variation in riverine communities, but conventional β-diversity approaches often overlook the direction of community change across drying and wetting phases, which is central to intermittency-driven dynamics. Here, we applied a directional β-diversity framework to quantify species gain and loss through time and to examine intermittency-driven community change. We compared temporal changes in macroinvertebrate assemblage composition between perennial and intermittent sites within a river network.
