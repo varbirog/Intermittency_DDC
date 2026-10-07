@@ -26,7 +26,7 @@ If you use this dataset or code, please cite:
 Boda, P., Szeles, J., Bozóki, T., Csabai, Z., Schmera, D., & Várbíró, G. (2026).
 Flow intermittency amplifies temporal instability in macroinvertebrate communities:
 insights from directional β-diversity.
-*Ecological Indicators*.
+*Ecological Indicators, 191*, 115523.
 https://doi.org/10.1016/j.ecolind.2026.115523
 
 ## Abstract
